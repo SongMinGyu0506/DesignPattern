@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StrategyPatternEx.Gun.GunAk47</OriginalElement>
+  <nodes>
+    <node x="0.0" y="183.5">StrategyPatternEx.ShotMode.SemiAuto</node>
+    <node x="803.9962121212122" y="357.0">StrategyPatternEx.Gun.GunAk47</node>
+    <node x="617.5246212121212" y="0.0">StrategyPatternEx.UsingBullet.UsingBullet</node>
+    <node x="664.0" y="183.5">StrategyPatternEx.UsingBullet.NineMil</node>
+    <node x="157.0" y="183.5">StrategyPatternEx.ShotMode.BoltAction</node>
+    <node x="471.0" y="125.0">StrategyPatternEx.Gun.Gun</node>
+    <node x="314.0" y="183.5">StrategyPatternEx.ShotMode.TripleAuto</node>
+    <node x="438.7462121212122" y="357.0">StrategyPatternEx.Gun.GunAwm</node>
+    <node x="983.0" y="183.5">StrategyPatternEx.UsingBullet.FiveFiveSixmil</node>
+    <node x="826.0" y="183.5">StrategyPatternEx.ShotMode.FullAuto</node>
+    <node x="378.89962121212136" y="0.0">StrategyPatternEx.ShotMode.ShotMode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StrategyPatternEx.ShotMode.SemiAuto" target="StrategyPatternEx.ShotMode.ShotMode">
+      <point x="0.0" y="-27.5" />
+      <point x="68.5" y="85.0" />
+      <point x="390.316287878788" y="85.0" />
+      <point x="-57.083333333333314" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.Gun" target="StrategyPatternEx.UsingBullet.UsingBullet">
+      <point x="21.625" y="-86.0" />
+      <point x="579.125" y="95.0" />
+      <point x="635.2746212121212" y="95.0" />
+      <point x="-53.25" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.UsingBullet.FiveFiveSixmil" target="StrategyPatternEx.UsingBullet.UsingBullet">
+      <point x="0.0" y="-27.5" />
+      <point x="1063.0" y="75.0" />
+      <point x="741.7746212121212" y="75.0" />
+      <point x="53.25" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.ShotMode.TripleAuto" target="StrategyPatternEx.ShotMode.ShotMode">
+      <point x="0.0" y="-27.5" />
+      <point x="382.5" y="105.0" />
+      <point x="435.9829545454546" y="105.0" />
+      <point x="-11.416666666666686" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.Gun" target="StrategyPatternEx.ShotMode.ShotMode">
+      <point x="-64.875" y="-86.0" />
+      <point x="492.625" y="105.0" />
+      <point x="458.816287878788" y="105.0" />
+      <point x="11.416666666666629" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.ShotMode.FullAuto" target="StrategyPatternEx.ShotMode.ShotMode">
+      <point x="0.0" y="-27.5" />
+      <point x="894.5" y="85.0" />
+      <point x="504.4829545454546" y="85.0" />
+      <point x="57.083333333333314" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAwm" target="StrategyPatternEx.UsingBullet.NineMil">
+      <point x="45.0" y="-39.5" />
+      <point x="543.7462121212122" y="337.0" />
+      <point x="735.0" y="337.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAk47" target="StrategyPatternEx.ShotMode.FullAuto">
+      <point x="15.0" y="-39.5" />
+      <point x="878.9962121212122" y="337.0" />
+      <point x="894.5" y="337.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAk47" target="StrategyPatternEx.UsingBullet.FiveFiveSixmil">
+      <point x="45.0" y="-39.5" />
+      <point x="908.9962121212122" y="337.0" />
+      <point x="1063.0" y="337.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAwm" target="StrategyPatternEx.ShotMode.BoltAction">
+      <point x="-45.0" y="-39.5" />
+      <point x="453.7462121212122" y="337.0" />
+      <point x="225.5" y="337.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAwm" target="StrategyPatternEx.Gun.Gun">
+      <point x="-15.0" y="-39.5" />
+      <point x="483.7462121212122" y="337.0" />
+      <point x="492.625" y="337.0" />
+      <point x="-64.875" y="86.0" />
+    </edge>
+    <edge source="StrategyPatternEx.UsingBullet.NineMil" target="StrategyPatternEx.UsingBullet.UsingBullet">
+      <point x="0.0" y="-27.5" />
+      <point x="735.0" y="105.0" />
+      <point x="706.2746212121212" y="105.0" />
+      <point x="17.75" y="27.5" />
+    </edge>
+    <edge source="StrategyPatternEx.Gun.GunAk47" target="StrategyPatternEx.Gun.Gun">
+      <point x="-45.0" y="-39.5" />
+      <point x="818.9962121212122" y="327.0" />
+      <point x="579.125" y="327.0" />
+      <point x="21.625" y="86.0" />
+    </edge>
+    <edge source="StrategyPatternEx.ShotMode.BoltAction" target="StrategyPatternEx.ShotMode.ShotMode">
+      <point x="0.0" y="-27.5" />
+      <point x="225.5" y="95.0" />
+      <point x="413.14962121212136" y="95.0" />
+      <point x="-34.25" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="571.5" y="218.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
