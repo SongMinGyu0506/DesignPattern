@@ -14,6 +14,7 @@ public class WeatherData implements Subject {
     public WeatherData() {
         observers = new ArrayList();
     }
+
     @Override
     public void registerObserver(Observer o) {
         observers.add(o);
